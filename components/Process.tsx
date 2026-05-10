@@ -6,31 +6,37 @@ const steps = [
   {
     k: "01",
     t: "Listen",
-    d: "We sit on your patio at golden hour, learn how your family actually uses the yard, and trace the constraints — sun, wind, sightlines, drainage.",
-    weeks: "Week 1–2",
+    d: "Free consultation on your patio. We learn how your family uses the yard, walk the site, and trace the constraints — sun, drainage, sightlines, HOA.",
+    weeks: "Week 1",
   },
   {
     k: "02",
-    t: "Design",
-    d: "A small set of hand-drawn options, then a single 3D walkthrough. We size every radius, finish and fixture before we touch a shovel.",
-    weeks: "Week 3–6",
+    t: "Design in 3-D",
+    d: "Every project is rendered in full 3-D before construction starts. You see exact tile, coping, deck and fire-feature placement — and we revise until you sign off.",
+    weeks: "Week 2–4",
   },
   {
     k: "03",
-    t: "Engineer",
-    d: "Soils report, structural drawings, hydraulic plan. Permits handled in-house. You see the budget locked, line by line.",
-    weeks: "Week 7–9",
+    t: "Ground-up Quote",
+    d: "Transparent ground-up pricing — every line item is the feature you chose, with no padded minimums. Permits are filed in-house and you see the budget locked.",
+    weeks: "Week 5–6",
   },
   {
     k: "04",
     t: "Build",
-    d: "Excavation through gunite, plumbing, tile, coping, deck and start-up. One project manager, daily updates, one accountable team.",
-    weeks: "Week 10–22",
+    d: "Excavation through gunite, plumbing, tile, coping, deck and startup. A dedicated on-site project manager runs daily inspections through a six-point quality checkpoint.",
+    weeks: "Week 7–18",
   },
   {
     k: "05",
+    t: "Quality Sign-off",
+    d: "Personal handover and walkthrough. We don't close the project until each of the six checkpoints passes and you're confident running every feature yourself.",
+    weeks: "Final week",
+  },
+  {
+    k: "06",
     t: "Live",
-    d: "Handover with a personal walkthrough. Lifetime structural warranty, two-year cosmetic, and a quiet phone line that always picks up.",
+    d: "Ongoing support — chemistry questions, automation tweaks, seasonal start-ups. The phone line that built your pool is the same one that picks up after.",
     weeks: "Year 1+",
   },
 ];
@@ -48,7 +54,7 @@ export default function Process() {
           </div>
           <div className="col-span-12 md:col-span-9">
             <h2 className="font-display text-[clamp(2rem,5vw,4.4rem)] leading-[1.05] text-ink max-w-[22ch]">
-              Five steps. One year. A pool you&apos;ll still love in twenty.
+              Six steps. One project manager. Six quality checkpoints.
             </h2>
           </div>
         </div>

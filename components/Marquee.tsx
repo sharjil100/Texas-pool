@@ -3,15 +3,16 @@
 import { motion } from "framer-motion";
 
 const items = [
-  "Gunite Construction",
+  "Custom Pools",
   "Spa Integration",
-  "Tanning Ledges",
-  "Negative Edge",
-  "Outdoor Kitchens",
-  "Fire Features",
+  "Covered Patios",
   "Pergolas",
-  "Smart Automation",
-  "Travertine Decks",
+  "Outdoor Kitchens",
+  "Fire Pits",
+  "Fire Bowls",
+  "Water Bowls",
+  "Sheer Descents",
+  "3-D Renderings",
 ];
 
 export default function Marquee() {

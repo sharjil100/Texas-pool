@@ -59,7 +59,7 @@ export default function Hero() {
         transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         className="absolute top-24 right-6 lg:right-10 hidden md:flex items-center gap-3 text-[0.7rem] uppercase tracking-[0.28em] text-white/70 pointer-events-none"
       >
-        Texus Studio &nbsp;/&nbsp; Austin, TX
+        Texus Studio &nbsp;/&nbsp; Katy, TX
         <span className="w-8 h-px bg-white/70" />
       </motion.div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="text-[0.7rem] uppercase tracking-[0.32em] text-white/85 mb-8"
         >
-          Custom Pools &nbsp;·&nbsp; Est. 1998 &nbsp;·&nbsp; Texas
+          Custom Pools &nbsp;·&nbsp; 15 Years &nbsp;·&nbsp; Greater Houston
         </motion.span>
 
         {/* Big TEXUS wordmark — letters write in sequentially */}
@@ -125,8 +125,9 @@ export default function Hero() {
           }}
           className="mt-8 max-w-xl text-base md:text-lg text-white/85 leading-relaxed"
         >
-          Architecture-grade residential pools, spas and outdoor living, designed
-          and built across Texas with obsessive craft.
+          Custom-built residential pools, spas and outdoor living, designed
+          and built across Greater Houston with transparent pricing and
+          on-site project management.
         </motion.p>
 
         <motion.div
@@ -162,7 +163,7 @@ export default function Hero() {
         transition={{ duration: 1, delay: 1.7, ease: [0.22, 1, 0.36, 1] }}
         className="absolute bottom-0 inset-x-0 h-24 flex items-end justify-between px-6 lg:px-10 pb-6 pointer-events-none text-[0.7rem] uppercase tracking-[0.28em] text-white/75"
       >
-        <div>· Now Booking 2026</div>
+        <div>· Now Booking · Veteran Owned</div>
         <motion.div
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}

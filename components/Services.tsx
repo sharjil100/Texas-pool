@@ -7,26 +7,26 @@ const services = [
   {
     n: "I",
     title: "Custom Pools",
-    body: "Gunite construction, hand-set tile and coping. From lap pools to negative-edge resort designs.",
+    body: "Geometric or free-form, every pool is custom-designed and rendered in 3-D before construction starts. Hand-set tile, full-tile coping, and the exact finish you choose.",
     image: "/pool1.png",
   },
   {
     n: "II",
-    title: "Spas & Wellness",
-    body: "Integrated spas with thermal-balanced jets, cold-plunge inserts and bench seating tuned to your shoulders.",
-    image: "/pool2.png",
+    title: "Spas & Hot Tubs",
+    body: "Integrated spas built into the pool shell or stand-alone hot tubs — bench seating, hydrotherapy jets, sheer-descent spillovers and quiet, automated heating you can run from your phone.",
+    image: "/pool4.png",
   },
   {
     n: "III",
     title: "Outdoor Living",
-    body: "Kitchens, fireplaces, pergolas and decks designed alongside the pool — one continuous architectural moment.",
+    body: "Covered and enclosed patios, custom pergolas, and outdoor kitchens — designed alongside the pool so the architecture feels like one continuous backyard.",
     image: "/pool3.png",
   },
   {
     n: "IV",
-    title: "Smart Automation",
-    body: "Phone-controlled lighting, chemistry, heating and water features. Quiet engineering, behind every panel.",
-    image: "/pool4.png",
+    title: "Fire & Water Features",
+    body: "Fire pits, fireplaces, fire bowls, water bowls and bubbler fountains — automated lighting and chemistry included, so the pool stays the centerpiece long after sundown.",
+    image: "/pool2.png",
   },
 ];
 
@@ -45,8 +45,9 @@ export default function Services() {
             </h2>
           </div>
           <p className="text-ink-soft max-w-md">
-            Each project is led by a single principal designer from first sketch to
-            handover, supported by an in-house gunite, tile and landscape crew.
+            Pools, spas, outdoor living, and fire and water features —
+            designed together, built by one accountable team, priced from the
+            ground up.
           </p>
         </div>
 

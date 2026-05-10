@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const quotes = [
   {
-    q: "They turned a sloped, useless side yard into the room our family lives in for nine months a year.",
+    q: "The 3-D rendering matched what they actually built — down to the tile and the fire-bowl spacing. Smoothest design process we've been through on any home project.",
     n: "M. & A. Reyes",
-    l: "Tarrytown",
+    l: "Katy",
   },
   {
-    q: "We interviewed eleven builders. Texus was the only one who showed up with hand sketches before quoting a number.",
+    q: "Tracy and the team were responsive every single day of the build. Ground-up pricing meant no surprise line items at the end.",
     n: "Jordan H.",
-    l: "Lake Travis",
+    l: "Sugar Land",
   },
   {
-    q: "Three years in, the tile lines are still dead-flat. That is what you are paying for.",
+    q: "Two years in, the tile lines are still dead-flat and the automation just works. That is what the six-point checkpoint was buying us.",
     n: "S. Patel",
-    l: "Highland Park",
+    l: "Spring",
   },
 ];
 

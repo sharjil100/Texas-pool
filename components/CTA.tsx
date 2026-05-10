@@ -16,10 +16,10 @@ export default function CTA() {
             className="absolute inset-0"
           >
             <Image
-              src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=2400&q=85&auto=format&fit=crop"
+              src="/pool5.png"
               alt=""
               fill
-              sizes="100vw"
+              sizes="(min-width: 1024px) 1280px, 100vw"
               className="object-cover opacity-50"
             />
           </motion.div>
@@ -38,13 +38,46 @@ export default function CTA() {
                 transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                 className="font-display text-[clamp(2.4rem,6vw,5.5rem)] leading-[0.98] max-w-[16ch]"
               >
-                Bring us your sloped, awkward, impossible backyard.
+                Free quote. Free design. Honest pricing.
               </motion.h2>
               <p className="mt-8 max-w-md text-white/80 leading-relaxed">
-                We open three to five new conversations each season. Tell us about
-                your home, your family, and the way you&apos;d like to spend a
-                Saturday in July.
+                Tell us about the yard and we&apos;ll come out for a free
+                consultation and a 3-D rendering. Most replies inside one
+                business day.
               </p>
+
+              <div className="mt-10 flex flex-col gap-3 text-white/80 text-sm">
+                <a
+                  href="tel:+18328707665"
+                  className="inline-flex items-center gap-3 hover:text-white transition-colors"
+                >
+                  <span className="text-[0.7rem] uppercase tracking-[0.28em] text-white/50 w-16 shrink-0">
+                    Call
+                  </span>
+                  <span className="font-display text-2xl md:text-3xl text-white">
+                    832-870-POOL
+                  </span>
+                </a>
+                <a
+                  href="mailto:Info@texascustomoutdoors.com"
+                  className="inline-flex items-center gap-3 hover:text-white transition-colors"
+                >
+                  <span className="text-[0.7rem] uppercase tracking-[0.28em] text-white/50 w-16 shrink-0">
+                    Email
+                  </span>
+                  <span>Info@texascustomoutdoors.com</span>
+                </a>
+                <div className="inline-flex items-start gap-3">
+                  <span className="text-[0.7rem] uppercase tracking-[0.28em] text-white/50 w-16 shrink-0 pt-1">
+                    Visit
+                  </span>
+                  <span>
+                    2717 Commercial Center Blvd, Suite E200
+                    <br />
+                    Katy, TX 77494
+                  </span>
+                </div>
+              </div>
             </div>
 
             <form
@@ -54,9 +87,9 @@ export default function CTA() {
               <div className="grid grid-cols-2 gap-4">
                 <Field label="Name" id="name" />
                 <Field label="City" id="city" />
-                <Field label="Email" id="email" type="email" className="col-span-2" />
-                <Field label="Lot size (acres)" id="lot" />
-                <Field label="Budget range" id="budget" />
+                <Field label="Phone" id="phone" type="tel" />
+                <Field label="Email" id="email" type="email" />
+                <Field label="Budget range" id="budget" className="col-span-2" />
                 <div className="col-span-2">
                   <label className="text-[0.7rem] uppercase tracking-[0.28em] text-white/70">
                     Tell us about the yard
@@ -64,7 +97,7 @@ export default function CTA() {
                   <textarea
                     rows={4}
                     className="mt-2 w-full bg-transparent border-b border-white/30 focus:border-white outline-none text-white placeholder:text-white/40 py-2 transition-colors resize-none"
-                    placeholder="Slope, sun, what you'd love to do there…"
+                    placeholder="Lot, what you'd love to add — pool, kitchen, fire features, the works."
                   />
                 </div>
               </div>
@@ -72,7 +105,7 @@ export default function CTA() {
                 type="submit"
                 className="mt-8 w-full inline-flex items-center justify-center gap-2 rounded-full bg-white text-pool-900 px-6 py-4 text-sm uppercase tracking-[0.28em] hover:bg-pool-100 transition-colors"
               >
-                Begin the conversation
+                Request a free quote
                 <span>→</span>
               </button>
             </form>

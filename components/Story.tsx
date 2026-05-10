@@ -10,10 +10,10 @@ import {
 } from "framer-motion";
 
 const STATS = [
-  { kind: "count", to: 27, suffix: "", label: "Years building" },
-  { kind: "count", to: 340, suffix: "+", label: "Pools shipped" },
-  { kind: "static", value: "3–5", label: "Builds per year" },
-  { kind: "letters", value: "TX", label: "Born & based" },
+  { kind: "count", to: 15, suffix: "", label: "Years building" },
+  { kind: "count", to: 6, suffix: "", label: "Quality checkpoints" },
+  { kind: "static", value: "3-D", label: "Renderings on every build" },
+  { kind: "letters", value: "TX", label: "Veteran owned" },
 ] as const;
 
 export default function Story() {
@@ -36,22 +36,25 @@ export default function Story() {
               transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-[clamp(2rem,5vw,4.4rem)] leading-[1.05] text-ink max-w-[22ch]"
             >
-              We don&apos;t install pools. We compose backyards
-              that <em className="not-italic text-pool-700">feel inevitable</em>.
+              Custom-built pools and outdoor living, with the
+              <em className="not-italic text-pool-700"> respect, integrity </em>
+              and <em className="not-italic text-pool-700">transparency</em> you
+              deserve.
             </motion.h2>
 
             <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl">
               <p className="text-ink-soft leading-relaxed">
-                Texus is a small studio of designers, gunite craftsmen and landscape
-                architects, working out of Austin and shipping projects across the
-                Hill Country, Houston and Dallas. Every build starts with the way the
-                light hits the patio at 6 PM in August.
+                Texus Custom Outdoors is a veteran and former
+                law-enforcement-owned studio based in Katy, building residential
+                pools, spas, pergolas, kitchens and outdoor structures across
+                Greater Houston — Sugar Land, Fulshear, Conroe, Spring and
+                Pearland.
               </p>
               <p className="text-ink-soft leading-relaxed">
-                We take three to five private homes a year. That ratio is on purpose:
-                it&apos;s how we keep the radius lines tight, the tile flush and the
-                sightlines honest. No sub-contracted finishes. No spec sheets we
-                wouldn&apos;t put our name to.
+                Every project starts with a 3-D rendering and a ground-up price
+                — you only pay for the features you choose, with no padded
+                line items. An on-site project manager runs each build through
+                a six-point quality checkpoint before we hand you the keys.
               </p>
             </div>
 
