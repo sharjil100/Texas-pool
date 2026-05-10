@@ -35,6 +35,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${geistSans.variable} ${instrument.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col grain bg-background text-ink">
         <SmoothScroll>{children}</SmoothScroll>
