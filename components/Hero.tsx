@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const LETTERS = "TEXUS".split("");
+const LETTERS = "TEXAS".split("");
 
 export default function Hero() {
   return (
@@ -53,7 +53,7 @@ export default function Hero() {
         transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         className="absolute top-24 right-6 lg:right-10 hidden md:flex items-center gap-3 text-[0.7rem] uppercase tracking-[0.28em] text-white/70 pointer-events-none"
       >
-        Texus Studio &nbsp;/&nbsp; Katy, TX
+        Texas Custom Outdoors &nbsp;/&nbsp; Katy, TX
         <span className="w-8 h-px bg-white/70" />
       </motion.div>
 
@@ -68,9 +68,9 @@ export default function Hero() {
           Custom Pools &nbsp;·&nbsp; 15 Years &nbsp;·&nbsp; Greater Houston
         </motion.span>
 
-        {/* Big TEXUS wordmark — letters write in sequentially */}
+        {/* Big TEXAS wordmark — letters write in sequentially */}
         <h1
-          aria-label="Texus"
+          aria-label="Texas Custom Outdoors"
           className="font-display text-white leading-[0.85] flex items-baseline gap-[0.04em] text-[clamp(5rem,22vw,22rem)] drop-shadow-[0_4px_40px_rgba(0,0,0,0.45)]"
         >
           {LETTERS.map((c, i) => (

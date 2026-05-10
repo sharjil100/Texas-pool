@@ -15,13 +15,13 @@ const instrument = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Texus — Custom Pools, Crafted in Texas",
+  title: "Texas Custom Outdoors — Custom Pools, Spas & Outdoor Living in Greater Houston",
   description:
-    "Texus designs and builds bespoke residential pools, spas, and outdoor living spaces across Texas. Architecture-grade craftsmanship, family-owned since 1998.",
+    "Texas Custom Outdoors designs and builds custom residential pools, spas, pergolas, outdoor kitchens and outdoor living across Greater Houston. Veteran-owned, 15 years of craftsmanship, transparent ground-up pricing.",
   openGraph: {
-    title: "Texus — Custom Pools, Crafted in Texas",
+    title: "Texas Custom Outdoors — Custom Pools, Spas & Outdoor Living",
     description:
-      "Bespoke pools, spas and outdoor living. Architecture-grade craftsmanship.",
+      "Custom pools, spas, pergolas and outdoor kitchens across Greater Houston. Veteran-owned. Transparent pricing. Free 3-D design.",
     type: "website",
   },
 };

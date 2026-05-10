@@ -41,7 +41,7 @@ export default function Navigation() {
         )}
       >
         <div className="mx-auto max-w-[1400px] px-6 lg:px-10 h-20 flex items-center justify-between">
-          <a href="#top" aria-label="Texus home">
+          <a href="#top" aria-label="Texas Custom Outdoors home">
             <Logo />
           </a>
 

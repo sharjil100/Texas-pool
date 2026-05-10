@@ -32,7 +32,7 @@ export default function Story() {
             <motion.h2
               initial={{ y: 40, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true, margin: "-15%" }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
               className="font-display text-[clamp(2rem,5vw,4.4rem)] leading-[1.05] text-ink max-w-[22ch]"
             >
@@ -44,7 +44,7 @@ export default function Story() {
 
             <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl">
               <p className="text-ink-soft leading-relaxed">
-                Texus Custom Outdoors is a veteran and former
+                Texas Custom Outdoors is a veteran and former
                 law-enforcement-owned studio based in Katy, building residential
                 pools, spas, pergolas, kitchens and outdoor structures across
                 Greater Houston — Sugar Land, Fulshear, Conroe, Spring and
@@ -64,7 +64,7 @@ export default function Story() {
                   key={s.label}
                   initial={{ y: 24, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true, margin: "-20%" }}
+                  viewport={{ once: true, amount: 0.1 }}
                   transition={{
                     duration: 0.8,
                     delay: i * 0.1,
@@ -105,7 +105,7 @@ function CountUp({
   duration?: number;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-20%" });
+  const inView = useInView(ref, { once: true, amount: 0.1 });
   const value = useMotionValue(0);
   const display = useTransform(value, (v) => `${Math.round(v)}${suffix}`);
 
@@ -134,7 +134,7 @@ function LetterRise({ text, delay = 0 }: { text: string; delay?: number }) {
           <motion.span
             initial={{ y: "110%" }}
             whileInView={{ y: "0%" }}
-            viewport={{ once: true, margin: "-20%" }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{
               duration: 0.9,
               delay: delay + i * 0.1,
