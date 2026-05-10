@@ -37,6 +37,20 @@ export default function RootLayout({
       className={`${geistSans.variable} ${instrument.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/hero/poster.jpg"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          as="video"
+          href="/hero/hero-video.mp4"
+          type="video/mp4"
+        />
+      </head>
       <body className="min-h-full flex flex-col grain bg-background text-ink">
         <SmoothScroll>{children}</SmoothScroll>
       </body>

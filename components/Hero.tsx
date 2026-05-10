@@ -27,16 +27,10 @@ export default function Hero() {
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="auto"
         poster="/hero/poster.jpg"
         aria-hidden
       >
-        <source
-          src="/hero/hero-portrait.mp4"
-          type="video/mp4"
-          media="(orientation: portrait) and (max-width: 768px)"
-        />
-        <source src="/hero/hero.webm" type="video/webm" />
         <source src="/hero/hero-video.mp4" type="video/mp4" />
       </motion.video>
 
